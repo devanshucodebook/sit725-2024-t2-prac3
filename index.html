@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SIT 725 Prac 3</title>
+  <!-- Google icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Custom Style Sheet-->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper navbar-size">
+      <a href="#" class="brand-logo"><img class="user-image-size" src="images/logo1.png" /></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/devanshu-bhadouria-853233196/">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main-body">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center-align lobster_font">
+          <h1 id="heading">My name is Devanshu Bhadoria and right now doing SIT725</h1>
+          <p class="flow-text"> LinkedIn profile</p>
+          <p class="flow-text">Demo for Materialize</p>
+        </div>
+
+        <div class="col s12 center-align">
+          <!-- Image that enlarges on click -->
+          <img src="images/livedemo1.jpg" alt="test image" class="materialboxed materialboxed-image" id="testImage">
+        </div>
+
+        <div class="col s12 center-align">
+          <a href="" class="waves-effect waves-light btn click-me-button modal-trigger" data-target="modal1"
+            id="clickMe"><i class="material-icons left">auto_fix_high</i>Get Time</a>
+        </div>
+
+        <div id="modal1" class="modal modal-fixed-footer">
+          <div class="row modal-content">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="First Name" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12 center-align">
+                  <a class="waves-effect waves-light btn" id="formSubmit">Submit</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Modal for enlarged image -->
+        <div id="imageModal" class="modal">
+          <div class="modal-content">
+            <img src="images/livedemo1.jpg" alt="Enlarged Test Image" class="responsive-img" id="enlargedImage">
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- jQuery and Materialize JS -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "sit725-2024-t2-prac3",
+  "version": "1.0.0",
+  "description": "sit 725 week 3 ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Devanshu bhadouria",
+  "license": "ISC",
+  "bugs": {
+    
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

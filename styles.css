@@ -1,0 +1,33 @@
+nav {
+  background-color: greenyellow;
+}
+.navbar-size {
+  width: 75%;
+  margin: 20 auto;
+}
+.user-image-size {
+  height: 56px;
+  margin: 4px 0;
+}
+.main-body {
+  background-color:blue;
+  color: white;
+  height: calc(100vh - 10px);
+}
+
+
+
+.materialboxed-image {
+  margin: 0 auto;
+  height: 400px;
+}
+.click-me-button {
+  background-color:red;
+  margin-bottom: 10px;
+}
+
+.lobster_font {
+  font-family: "Roboto", sans-serif; /* Changed to Roboto */
+  font-weight: 400; /* Regular weight */
+  font-style: normal; /* Normal style */
+}
